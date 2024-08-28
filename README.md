@@ -1,70 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tic-Tac-Toe Game
 
-## Available Scripts
+## Description
+Ce projet est une implémentation du célèbre jeu **Tic-Tac-Toe** utilisant **React**. Le jeu est simple et amusant, avec une interface utilisateur intuitive et réactive. Les joueurs peuvent jouer contre un ami en alternant les tours.
 
-In the project directory, you can run:
+## Fonctionnalités
+- **Joueur contre Joueur** : Deux joueurs peuvent jouer l'un contre l'autre en utilisant le même appareil.
+- **Interface Réactive** : Le jeu utilise React pour offrir une expérience utilisateur fluide.
+- **Détection de Victoire et Nul** : Le jeu détecte automatiquement la victoire d'un joueur ou une égalité.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prérequis
+- **Node.js** (version 14 ou plus)
+- **npm** ou **yarn**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Étapes d'installation
 
-### `npm test`
+1. Clonez le dépôt :
+   \`\`\`bash
+   git clone https://github.com/badStephane/tic-tac-toe-game.git
+   cd tic-tac-toe-game
+   \`\`\`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Installez les dépendances :
+   \`\`\`bash
+   npm install
+   \`\`\`
+   ou
+   \`\`\`bash
+   yarn install
+   \`\`\`
 
-### `npm run build`
+3. Démarrez le serveur de développement :
+   \`\`\`bash
+   npm start
+   \`\`\`
+   ou
+   \`\`\`bash
+   yarn start
+   \`\`\`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Ouvrez votre navigateur et accédez à [http://localhost:3000](http://localhost:3000) pour voir le jeu en action.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Utilisation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Cliquez sur une case pour placer votre marque (X ou O).
+- Le jeu alternera automatiquement les tours entre les deux joueurs.
+- Le jeu annonce un gagnant lorsqu'une ligne de trois est formée, ou déclare une égalité si toutes les cases sont remplies sans vainqueur.
 
-### `npm run eject`
+## Structure du Projet
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Voici un aperçu des fichiers principaux dans le projet :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+\`\`\`
+tic-tac-toe-game/
+│
+├── public/
+│   ├── index.html
+│   └── ...
+│
+├── src/
+│   ├── Components/
+│   │   ├── Assets/
+│   │   ├── TicTacToe/
+│   │   │   ├── TicTacToe.jsx
+│   │   └── ...
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+│
+├── .gitignore
+├── package.json
+└── README.md
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+\`\`\`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **App.js** : Composant principal qui gère l'état du jeu.
+- **TicTacToe.js** : Composant qui gere tout le jeu (tableau, logique).
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Ressources Utilisées
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React** : Une bibliothèque JavaScript pour créer des interfaces utilisateur.
 
-### Code Splitting
+## Auteurs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Stephane Badiane** - [badStephane](https://github.com/badStephane)
 
-### Analyzing the Bundle Size
+## Lien vers le Jeu
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Jouez au jeu en ligne ici : [Tic-Tac-Toe Game](https://badstephane.github.io/tic-tac-toe-game/)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Merci d'avoir consulté ce projet ! Si vous avez des questions ou des suggestions, n'hésitez pas à ouvrir une **Issue** ou à me contacter.
