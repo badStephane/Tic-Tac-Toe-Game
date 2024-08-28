@@ -4,6 +4,9 @@
 ## Description
 Ce projet est une implémentation du célèbre jeu **Tic-Tac-Toe** utilisant **React**. Le jeu est simple et amusant, avec une interface utilisateur intuitive et réactive. Les joueurs peuvent jouer contre un ami en alternant les tours.
 
+![Texte alternatif](/public/Game.png)
+
+
 ## Fonctionnalités
 - **Joueur contre Joueur** : Deux joueurs peuvent jouer l'un contre l'autre en utilisant le même appareil.
 - **Interface Réactive** : Le jeu utilise React pour offrir une expérience utilisateur fluide.
