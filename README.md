@@ -53,30 +53,6 @@ Ce projet est une implémentation du célèbre jeu **Tic-Tac-Toe** utilisant **R
 
 Voici un aperçu des fichiers principaux dans le projet :
 
-\`\`\`
-tic-tac-toe-game/
-│
-├── public/
-│   ├── index.html
-│   └── ...
-│
-├── src/
-│   ├── Components/
-│   │   ├── Assets/
-│   │   ├── TicTacToe/
-│   │   │   ├── TicTacToe.jsx
-│   │   └── ...
-│   │
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-│
-├── .gitignore
-├── package.json
-└── README.md
-
-\`\`\`
-
 - **App.js** : Composant principal qui gère l'état du jeu.
 - **TicTacToe.js** : Composant qui gere tout le jeu (tableau, logique).
 
